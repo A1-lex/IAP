@@ -9,6 +9,7 @@ input.addEventListener('keyup', () =>{
      
         btnSubmit.disabled =false;
     }
+   return false;
 });
 
 submit.addEventListener('click', () =>{
